@@ -15,11 +15,12 @@ export default function Navbar() {
 
   return (
     <>
-    <header className="flex p-2 items-center justify-between top-[0.1px] bg-white sticky">
+    <header className="flex p-2 items-center justify-between top-[0.1px] z-50 bg-white sticky">
       <Link href="/">
         <Image
           src="/logo.png"
           alt="logo"
+          priority
           width={600}
           height={600}
           className="w-18 h-14"
@@ -186,6 +187,7 @@ export default function Navbar() {
       <Image
           src="/logo.png"
           alt="logo"
+          priority
           width={600}
           height={600}
           className="w-18 h-14"

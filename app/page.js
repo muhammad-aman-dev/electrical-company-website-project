@@ -60,6 +60,7 @@ export default function Home() {
                 alt={`Slide ${i + 1}`}
                 fill
                 priority
+                quality={25}
                 className="
                   object-cover
                   sm:object-fill
@@ -71,6 +72,29 @@ export default function Home() {
         )}
       </Slider>
     </motion.div>
+   <motion.div
+   className="bg-[#120e49] p-5 mt-6 w-full rounded-2xl"
+   initial={{opacity:0,y:30}}
+   animate={{opacity:1,y:0}}
+   transition={{ duration: 0.8, ease: "easeOut" }} 
+   >
+    <h2 className="mt-4 text-center text-[#ec7037] font-bold text-2xl p-3 sm:text-3xl">Our Vision</h2>
+    <div className="flex sm:flex-row flex-col justify-between">
+    <motion.div
+    initial={{opacity:0,x:-30}}
+   animate={{opacity:1,x:0}}
+   transition={{ duration: 0.8, ease: "easeOut" }} 
+    className="vision text-md font-bold flex sm:items-center sm:w-[40%] text-white sm:text-xl">To be Pakistan's leading provider of innovative and sustainable construction and electrical solutions, delivering quality, safety, and reliability in every project.</motion.div>
+    <span className={` h-[300px] bg-[#ec7037] transition-all duration-300 w-1`} ></span>
+    <motion.div
+    initial={{opacity:0,x:30}}
+   animate={{opacity:1,x:0}}
+   transition={{ duration: 0.8, ease: "easeOut" }} 
+    className="ceo sm:w-[40%]">
+      <Image src={'/ceo.png'} width={300} height={300} alt="ceo image" className="object-cover h-[300px]"/>
+    </motion.div>
+    </div>
+    </motion.div>   
     </>
   );
 }
