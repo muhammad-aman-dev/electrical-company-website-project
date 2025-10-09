@@ -190,10 +190,10 @@ export default function Navbar() {
           height={600}
           className="w-18 h-14"
         />
-        <p className="text-[#120e49]">WeConstruct Pvt. Ltd. | Since 2010</p>
+        <p className="text-[#120e49]">W&C Electrical Pvt. Ltd. | Since 2010</p>
 </div>
 </div>
 
         </>
-  );
+        );
 }

@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <>
-    <div className="w-full h-[50vh] sm:h-[70vh] bg-amber-300 overflow-hidden relative">
+    <div className="w-full h-[50vh] sm:h-[70vh] overflow-hidden relative">
       <div className="bg-black/60 absolute w-full h-full z-10"></div>
       <Slider {...settings}>
         {["/image-1.jpg", "/image-2.jpg", "/image-3.jpg", "/image-4.jpg"].map(

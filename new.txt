@@ -60,3 +60,63 @@ export default function App() {
     </div>
   );
 }
+
+----
+
+1. Electrical System Design & Planning
+
+Creating electrical layout drawings and load calculations
+
+Coordinating with architects and civil engineers
+
+Ensuring compliance with electrical codes and safety standards
+
+2. Electrical Installation
+
+Wiring and cabling throughout the building
+
+Installing switchboards, circuit breakers, and distribution panels
+
+Connecting power to outlets, lighting, and equipment
+
+Installing backup power systems (generators, UPS)
+
+3. Lighting Systems
+
+Installing indoor and outdoor lighting
+
+Smart lighting systems and energy-efficient solutions (LED, sensors, etc.)
+
+4. Power Systems
+
+Setting up main electrical panels and sub-panels
+
+Power distribution for HVAC, lifts, water pumps, etc.
+
+5. Low Voltage & Special Systems
+
+Fire alarm systems
+
+CCTV and security systems
+
+Access control systems
+
+Data and communication cabling (LAN, telephone, Wi-Fi networks)
+
+6. Maintenance & Testing
+
+Electrical safety inspections
+
+Troubleshooting and repairs
+
+Preventive maintenance contracts
+
+Load testing and energy audits
+
+🏗️ Relationship with the Main Construction Company:
+
+The construction company (often called a General Contractor) hires the Electrical Contractor as a subcontractor.
+
+The electrical contractor works alongside other trades (like plumbing, HVAC, etc.) to complete the building.
+
+Would you like me to also list other types of subcontractors (like plumbing, HVAC, etc.) that usually work under a main construction company? That might give you the full picture of how a building project team is structured.
