@@ -21,13 +21,13 @@ const Footer = () => {
        <div className="explore text-[#120e49] font-bold flex flex-col pl-10 pt-2 md:p-0">
         <h3 className="text-xl sm:text-2xl">Explore</h3>
         <ul className="flex flex-col">
-        <li><Link className="text-[#ec7037] underline text-md" href={'/contact'}>
+        <li><Link className="text-[#ec7037] underline text-sm sm:text-md" href={'/contact'}>
         Contact Us
         </Link></li>
-        <li><Link className="text-[#ec7037] underline text-md" href={'/services'}>
+        <li><Link className="text-[#ec7037] underline text-sm sm:text-md" href={'/services'}>
         Services
         </Link></li>
-        <li><Link className="text-[#ec7037] underline text-md" href={'/careeres'}>
+        <li><Link className="text-[#ec7037] underline text-sm sm:text-md" href={'/careeres'}>
         Careers
         </Link></li>
         </ul>
