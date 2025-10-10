@@ -6,10 +6,29 @@ import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
 import dynamic from "next/dynamic";
 import StatCounter from "@/components/StatCounter";
+import { useState, useEffect } from "react";
+
 
 const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
 export default function Home() {
+const [slidesToShow, setSlidesToShow] = useState(3);
+
+const updateSlides = () => {
+    if (window.innerWidth < 768) {
+      setSlidesToShow(1);
+    } else {
+      setSlidesToShow(3);
+    }
+  };
+
+useEffect(() => {
+    updateSlides();
+    window.addEventListener("resize", updateSlides); 
+
+    return () => window.removeEventListener("resize", updateSlides);
+  }, []);
+
   const NextArrow = ({ onClick }) => (
     <div
       onClick={onClick}
@@ -43,6 +62,7 @@ export default function Home() {
     infinite: false,
     speed: 500,
     slidesToScroll: 1,
+    slidesToShow: slidesToShow,
     arrows: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
