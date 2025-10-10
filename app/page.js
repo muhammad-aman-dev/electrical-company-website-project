@@ -131,8 +131,9 @@ useEffect(() => {
       <motion.div
         className="p-5 mt-6 w-full rounded-2xl"
         initial={{ opacity: 0, y: 30 }}
-        animate={{ opacity: 1, y: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
+viewport={{ once: true }}
       >
         <div className="flex justify-center">
           <h2 className="mt-4 text-[#120e49] font-bold text-2xl sm:text-3xl relative">
@@ -148,6 +149,7 @@ useEffect(() => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="vision text-md flex sm:items-center sm:w-[40%] text-[#120e49] sm:pl-10 sm:text-xl"
+viewport={{ once: true }}
           >
             Our vision is to become the leading force in Pakistan’s construction
             and electrical industry, delivering state-of-the-art infrastructure
@@ -162,9 +164,10 @@ useEffect(() => {
           ></span>
           <motion.div
             initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="ceo sm:w-[40%] flex justify-center"
+viewport={{ once: true }}
           >
             <Image
               src={"/ceo.png"}
