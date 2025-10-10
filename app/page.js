@@ -259,6 +259,58 @@ useEffect(() => {
           </div>
         </div>
       </motion.div>
+     <motion.div
+  className="mt-12 bg-[#f9fafb] py-12"
+  initial={{ opacity: 0, y: 50 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8, ease: "easeOut" }}
+  viewport={{ once: true }}
+>
+  <div className="flex justify-center">
+    <h2 className="text-[#120e49] font-bold text-2xl sm:text-3xl relative">
+      Our Process
+      <span className="absolute left-0 -bottom-1 h-[3px] w-full bg-[#ec7037] transition-all duration-300"></span>
+    </h2>
+  </div>
+
+  <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 w-[90%] sm:w-[80%] mx-auto">
+    {[
+      {
+        step: "01",
+        title: "Consultation",
+        desc: "We begin by understanding your project goals, requirements, and constraints through detailed discussion and on-site assessments.",
+      },
+      {
+        step: "02",
+        title: "Planning & Design",
+        desc: "Our team crafts tailored electrical layouts and construction plans focused on safety, efficiency, and sustainability.",
+      },
+      {
+        step: "03",
+        title: "Implementation",
+        desc: "We execute the project using high-quality materials and skilled engineers — ensuring timely and flawless delivery.",
+      },
+      {
+        step: "04",
+        title: "Testing & Handover",
+        desc: "Every installation is rigorously tested for safety and performance before final handover to the client.",
+      },
+    ].map((item, i) => (
+      <motion.div
+        key={i}
+        initial={{ opacity: 0, scale: 0.9 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.6, delay: i * 0.1 }}
+        viewport={{ once: true }}
+        className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 duration-300 text-center"
+      >
+        <div className="text-[#ec7037] text-4xl font-bold mb-3">{item.step}</div>
+        <h4 className="text-[#120e49] font-bold text-xl mb-2">{item.title}</h4>
+        <p className="text-gray-600 text-sm">{item.desc}</p>
+      </motion.div>
+    ))}
+  </div>
+</motion.div>
     </>
   );
 }
