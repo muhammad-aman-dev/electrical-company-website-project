@@ -81,7 +81,7 @@ useEffect(() => {
             <h3 className="font-bold text-[#ec7037] p-1 text-4xl">
               W&C Electrical
             </h3>
-            <span className="text-white font-bold text-lg sm:text-2xl m-h-[50px]">
+            <span className="text-white font-bold text-md sm:text-2xl ">
               <Typewriter
                 words={[
                   "Powering Progress with Precision & Safety",
