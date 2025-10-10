@@ -90,11 +90,11 @@ useEffect(() => {
                   "Driven by Energy, Defined by Quality.",
                   "Wiring the Future, Building with Integrity",
                 ]}
-                loop={1}
+                loop={true}
                 cursor
                 cursorStyle="|"
                 typeSpeed={80}
-                deleteSpeed={1}
+                deleteSpeed={0.1}
                 delaySpeed={1000}
               />
             </span>
