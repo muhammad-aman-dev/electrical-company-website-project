@@ -94,7 +94,7 @@ useEffect(() => {
                 cursor
                 cursorStyle="|"
                 typeSpeed={80}
-                deleteSpeed={0}
+                deleteSpeed={1}
                 delaySpeed={1000}
               />
             </span>
