@@ -145,7 +145,7 @@ useEffect(() => {
         <div className="flex sm:flex-row flex-col justify-between mt-5">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="vision text-md flex sm:items-center sm:w-[40%] text-[#120e49] sm:pl-10 sm:text-xl"
           >
@@ -189,11 +189,12 @@ useEffect(() => {
         <StatCounter target={15} label="Years Of Experience" />
       </motion.div>
       <motion.div
-        className="mt-6 "
-        initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
-      >
+  className="mt-6"
+  initial={{ opacity: 0, y: 50 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8, ease: "easeOut" }}
+  viewport={{ once: true }}
+>
         <div className="flex justify-center">
           <h2 className="mt-4 text-[#120e49] font-bold text-2xl sm:text-3xl relative">
             Our Projects
