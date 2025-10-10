@@ -81,7 +81,7 @@ useEffect(() => {
             <h3 className="font-bold text-[#ec7037] p-1 text-4xl">
               W&C Electrical
             </h3>
-            <span className="text-white font-bold text-lg sm:text-2xl">
+            <span className="text-white font-bold text-lg sm:text-2xl m-h-[30px]">
               <Typewriter
                 words={[
                   "Powering Progress with Precision & Safety",
@@ -94,7 +94,7 @@ useEffect(() => {
                 cursor
                 cursorStyle="|"
                 typeSpeed={80}
-                deleteSpeed={0.1}
+                deleteSpeed={0.001}
                 delaySpeed={1000}
               />
             </span>
