@@ -144,7 +144,7 @@ useEffect(() => {
         </div>
         <div className="flex sm:flex-row flex-col justify-between mt-5">
           <motion.div
-            initial={{ opacity: 0, x: -30 }}
+            initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="vision text-md flex sm:items-center sm:w-[40%] text-[#120e49] sm:pl-10 sm:text-xl"
@@ -161,7 +161,7 @@ useEffect(() => {
             className={` bg-[#ec7037] hidden sm:block transition-all duration-300 w-1`}
           ></span>
           <motion.div
-            initial={{ opacity: 0, x: 30 }}
+            initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="ceo sm:w-[40%] flex justify-center"
@@ -190,7 +190,7 @@ useEffect(() => {
       </motion.div>
       <motion.div
         className="mt-6 "
-        initial={{ opacity: 0, y: 30 }}
+        initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
