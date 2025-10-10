@@ -24,6 +24,9 @@ const Footer = () => {
         <li><Link className="text-[#ec7037] underline text-sm sm:text-md" href={'/contact'}>
         Contact Us
         </Link></li>
+        <li><Link className="text-[#ec7037] underline text-sm sm:text-md" href={'/about'}>
+        About Us
+        </Link></li>
         <li><Link className="text-[#ec7037] underline text-sm sm:text-md" href={'/services'}>
         Services
         </Link></li>
