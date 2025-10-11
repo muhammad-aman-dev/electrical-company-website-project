@@ -89,7 +89,7 @@ const ServicesPage = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-2">
+          <h2 className="text-3xl md:text-4xl text-[#120e49] font-bold mb-2">
             What We Offer
           </h2>
           <p className="text-gray-700 max-w-2xl mx-auto">
@@ -107,7 +107,7 @@ const ServicesPage = () => {
               transition={{ duration: 0.6, delay: i * 0.2 }}
               className="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center text-center hover:scale-105 transition-transform"
             >
-              <div className="text-[#ec7037] mb-4">{service.icon}</div>
+              <div className="text-[#120e49] mb-4">{service.icon}</div>
               <h3 className="text-xl font-semibold mb-2 text-[#ec7037]">{service.title}</h3>
               <p className="text-gray-700">{service.description}</p>
             </motion.div>
