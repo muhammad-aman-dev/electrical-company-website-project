@@ -187,7 +187,7 @@ viewport={{ once: true }}
   transition={{ duration: 0.8, ease: 'easeOut' }}
   viewport={{ once: true }}
 >
-  <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+  <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
     <StatCounter target={300} label="Employees" />
     <StatCounter target={250} label="Projects" />
     <StatCounter target={30} label="Cities Covered" />
