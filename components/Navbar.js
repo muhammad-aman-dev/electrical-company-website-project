@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { FiChevronDown } from "react-icons/fi"
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -27,7 +28,7 @@ export default function Navbar() {
         />
       </Link>
       <div className="links hidden sm:flex">
-        <ul className="flex gap-6">
+        <ul className="flex gap-6 relative">
           <li>
             <Link
               href="/"
@@ -90,6 +91,22 @@ export default function Navbar() {
                 }`}
               ></span>
             </Link>
+          </li>
+          <li className="text-[#120e49] group font-bold flex items-center cursor-pointer ">
+             <span>more</span> <FiChevronDown className="mt-[1px]"/>
+             <div className="moreLinks bg-white absolute -right-[135px] z-[100] opacity-0 translate-y-[-25px]  group-hover:opacity-100 group-hover:translate-y-0 min-w-[200px] duration-300 top-7 ">
+               <ul className="flex flex-col items-start p-2">
+                 <li><Link href="/careers"
+              className={`relative inline-block font-bold duration-300 group ${
+                pathname === "/careers" ? "text-[#ec7037]" : "text-[#120e49] hover:text-[#ec7037]"
+              }`}>Careers 
+              <span
+                className={`absolute left-0 -bottom-1 h-[2px] w-0 bg-[#ec7037] transition-all duration-300 ${
+                  pathname === "/careers" ? "w-3/4" : "group-hover:w-3/4"
+                }`}
+              ></span></Link></li>
+               </ul>
+             </div>
           </li>
         </ul>
       </div>
@@ -179,6 +196,19 @@ export default function Navbar() {
               ></span>
             </Link>
           </li>
+          <li className="text-[#120e49] group font-bold flex text-2xl items-center cursor-pointer ">
+             <span>more</span> <FiChevronDown className="mt-[1px]"/>
+          </li>
+          <li><Link href="/careers"
+          onClick={alterPhoneMenu}
+              className={`relative inline-block font-bold text-xl duration-300 group ${
+                pathname === "/careers" ? "text-[#ec7037]" : "text-[#120e49] hover:text-[#ec7037]"
+              }`}>Careers 
+              <span
+                className={`absolute left-0 -bottom-1 h-[2px] w-0 bg-[#ec7037] transition-all duration-300 ${
+                  pathname === "/careers" ? "w-3/4" : "group-hover:w-3/4"
+                }`}
+              ></span></Link></li>
         </ul>
         <button className="font-bold outline-none bg-[#120e49] text-[#ec7037] py-2 px-6 hover:bg-[#ec7037] hover:text-[#120e49] duration-300 cursor-pointer text-2xl rounded-xl w-52 h-12">
         Call Now
