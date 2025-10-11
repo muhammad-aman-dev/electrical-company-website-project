@@ -94,7 +94,7 @@ export default function Navbar() {
           </li>
           <li className="text-[#120e49] group font-bold flex items-center cursor-pointer ">
              <span>more</span> <FiChevronDown className="mt-[1px]"/>
-             <div className="moreLinks bg-white absolute -right-[135px] z-[100] opacity-0 pointer-events-none group-hover:pointer-events-auto translate-y-[-25px]  group-hover:opacity-100 group-hover:translate-y-0 min-w-[200px] duration-300 top-7 ">
+             <div className="moreLinks bg-white absolute -right-[135px] z-[100] opacity-0 pointer-events-none group-hover:pointer-events-auto translate-y-[-25px]  group-hover:opacity-100 group-hover:translate-y-0 min-w-[200px] duration-300 top-6 ">
                <ul className="flex flex-col items-start p-2">
                  <li><Link href="/careers"
               className={`relative inline-block font-bold duration-300 group ${
