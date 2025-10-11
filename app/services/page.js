@@ -87,6 +87,7 @@ const ServicesPage = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
           className="text-center mb-12"
         >
           <h2 className="text-center text-3xl sm:text-4xl text-[#120e49] font-bold relative inline-block">
@@ -106,6 +107,7 @@ const ServicesPage = () => {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: i * 0.2 }}
+              viewport={{ once: true }}
               className="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center text-center hover:scale-105 transition-transform"
             >
               <div className="text-[#ec7037] mb-4">{service.icon}</div>
@@ -121,7 +123,8 @@ const ServicesPage = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-        >
+          viewport={{ once: true }}
+ >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Ready to Power Your Project?
           </h2>
