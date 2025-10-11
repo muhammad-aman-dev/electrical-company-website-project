@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 
-export default function StatCounter({ target = 1000, duration = 2, label }) {
+export default function StatCounter({ target = 1000, duration = 1, label }) {
   const [count, setCount] = useState(0);
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.3 });
 
