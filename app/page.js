@@ -117,11 +117,11 @@ useEffect(() => {
                   alt={`Slide ${i + 1}`}
                   fill
                   priority={i === 0}
-                  quality={25}
+                  quality={50}
                   sizes="(max-width: 768px) 100vw,
          (max-width: 1200px) 70vw,
          50vw"
-                  className="object-cover"
+                  className="object-cover "
                 />
               </div>
             )

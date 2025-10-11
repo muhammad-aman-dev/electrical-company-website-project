@@ -37,7 +37,7 @@ const Footer = () => {
        </div>
        <div className="explore text-[#120e49] font-bold flex flex-col col-span-2">
         <h3 className="text-xl sm:text-2xl">Get in touch</h3>
-        <ul className="flex flex-col text-xs sm:text-md">
+        <ul className="flex flex-col text-xs md:text-sm">
         <li className="text-[#2e2e2e]">
         📍Address: Plot #45, Industrial Estate Phase 2, Khanewal Road, Multan, Pakistan
         </li>
