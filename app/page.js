@@ -181,21 +181,21 @@ viewport={{ once: true }}
         </div>
       </motion.div>
       <motion.div
-  className="mt-10"
+  className="mt-10 bg-[#120e49] rounded-2xl"
   initial={{ opacity: 0, y: 50 }}
   whileInView={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.8, ease: "easeOut" }}
   viewport={{ once: true }}
 >
   <div className="flex justify-center mb-4">
-    <h2 className="text-[#120e49] font-bold text-2xl sm:text-3xl relative">
+    <h2 className="text-white font-bold text-2xl sm:text-3xl relative">
       Our Achievements
       <span className="absolute left-0 -bottom-1 h-[3px] w-full bg-[#ec7037] transition-all duration-300"></span>
     </h2>
   </div>
 
   <motion.div
-    className="bg-[#120e49] flex sm:flex-row flex-col justify-between gap-6 sm:gap-0 flex-wrap px-10 py-7 rounded-2xl"
+    className="flex sm:flex-row flex-col justify-between gap-6 sm:gap-0 flex-wrap px-10 py-7 "
     initial={{ opacity: 0, y: 30 }}
     whileInView={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.8, ease: "easeOut" }}
