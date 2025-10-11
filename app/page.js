@@ -187,7 +187,7 @@ viewport={{ once: true }}
   transition={{ duration: 0.8, ease: "easeOut" }}
   viewport={{ once: true }}
 >
-  <div className="flex justify-center my-4">
+  <div className="flex justify-center mb-4 mt-8">
     <h2 className="text-white font-bold text-2xl sm:text-3xl relative">
       Our Achievements
       <span className="absolute left-0 -bottom-1 h-[3px] w-full bg-[#ec7037] transition-all duration-300"></span>
