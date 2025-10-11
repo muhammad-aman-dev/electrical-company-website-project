@@ -107,8 +107,8 @@ const ServicesPage = () => {
               transition={{ duration: 0.6, delay: i * 0.2 }}
               className="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center text-center hover:scale-105 transition-transform"
             >
-              <div className="text-[#120e49] mb-4">{service.icon}</div>
-              <h3 className="text-xl font-semibold mb-2 text-[#ec7037]">{service.title}</h3>
+              <div className="text-[#ec7037] mb-4">{service.icon}</div>
+              <h3 className="text-xl font-semibold mb-2 text-[#120e49]">{service.title}</h3>
               <p className="text-gray-700">{service.description}</p>
             </motion.div>
           ))}
