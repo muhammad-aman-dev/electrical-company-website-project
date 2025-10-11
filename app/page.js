@@ -180,20 +180,20 @@ viewport={{ once: true }}
           </motion.div>
         </div>
       </motion.div>
-      <motion.section
-  className="bg-gradient-to-r from-[#0e0b3d] via-[#120e49] to-[#0e0b3d] py-16 px-6"
-  initial={{ opacity: 0, y: 30 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.8, ease: 'easeOut' }}
-  viewport={{ once: true }}
->
-  <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-    <StatCounter target={300} label="Employees" />
-    <StatCounter target={250} label="Projects" />
-    <StatCounter target={30} label="Cities Covered" />
-    <StatCounter target={15} label="Years of Experience" />
-  </div>
-</motion.section>
+      <motion.div
+        className="bg-[#120e49] mt-6 flex sm:flex-row flex-col justify-between gap-6 sm:gap-0 flex-wrap px-10 py-7"
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+      >
+        <StatCounter target={300} label="Employees" />
+        <span className="h-16 w-[2px] bg-[#ec7037]/50 hidden sm:block"></span>
+        <StatCounter target={250} label="Projects" />
+        <span className="h-16 w-[2px] bg-[#ec7037]/50 hidden sm:block"></span>
+        <StatCounter target={30} label="Cities Covered" />
+        <span className="h-16 w-[2px] bg-[#ec7037]/50 hidden sm:block"></span>
+        <StatCounter target={15} label="Years Of Experience" />
+      </motion.div>
       <motion.div
   className="mt-6"
   initial={{ opacity: 0, y: 50 }}
