@@ -37,17 +37,17 @@ const Footer = () => {
        </div>
        <div className="explore text-[#120e49] font-bold flex flex-col col-span-2">
         <h3 className="text-xl sm:text-2xl">Get in touch</h3>
-        <ul className="flex flex-col">
-        <li className="text-[#2e2e2e] text-md">
+        <ul className="flex flex-col text-xs sm:text-md">
+        <li className="text-[#2e2e2e]">
         📍Address: Plot #45, Industrial Estate Phase 2, Khanewal Road, Multan, Pakistan
         </li>
-        <li className="text-[#2e2e2e] text-md">
+        <li className="text-[#2e2e2e]">
         📞Phone: +92 300 1234567 
         </li>
-        <li className="text-[#2e2e2e] text-md">
+        <li className="text-[#2e2e2e]">
         ✉Email: info@wcelectrical.com
         </li>
-        <li className="text-[#2e2e2e] text-md">
+        <li className="text-[#2e2e2e]">
         ⏰Working Hours: Mon-Sat: 9:00 AM - 6:00 PM
         </li>     
         </ul>
