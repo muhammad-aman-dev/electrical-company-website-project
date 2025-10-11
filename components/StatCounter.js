@@ -35,7 +35,7 @@ export default function StatCounter({ target = 1000, duration = 2, label }) {
       className="flex flex-col items-center text-[#ec7037]"
     >
       <span className="text-5xl font-bold ">{count.toLocaleString()}+</span>
-      {label && <span className="text-lg mt-1">{label}</span>}
+      {label && <span className="text-lg mt-1 text-white font-bold">{label}</span>}
     </motion.div>
   );
 }
