@@ -30,6 +30,7 @@ export default function StatCounter({ target = 1000, duration = 2, label }) {
       ref={ref}
       initial={{ opacity: 0, y: 20 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
+      whileHover={{ scale: 1.05, y: -5 }}
       transition={{ duration: 0.6 }}
       className="flex flex-col items-center text-[#ec7037]"
     >

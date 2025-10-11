@@ -1,0 +1,56 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 800 500"
+  width="100%"
+  height="auto"
+>
+  <circle cx="400" cy="250" r="200" fill="#ec703733" />
+
+  <text
+    x="50%"
+    y="50%"
+    text-anchor="middle"
+    fill="#ec7037"
+    font-size="120"
+    font-family="Poppins, sans-serif"
+    font-weight="700"
+    dy="-20"
+  >
+    404
+  </text>
+
+  <rect x="300" y="270" width="200" height="4" rx="2" fill="#ec7037" />
+
+  <text
+    x="50%"
+    y="330"
+    text-anchor="middle"
+    fill="#444"
+    font-size="20"
+    font-family="Poppins, sans-serif"
+  >
+    Oops! The page you're looking for doesn't exist.
+  </text>
+
+  <g transform="translate(500 140)">
+    <circle cx="0" cy="0" r="40" stroke="#ec7037" stroke-width="6" fill="none" />
+    <line
+      x1="25"
+      y1="25"
+      x2="60"
+      y2="60"
+      stroke="#ec7037"
+      stroke-width="6"
+      stroke-linecap="round"
+    />
+  </g>
+
+  <circle cx="510" cy="90" r="4" fill="#ec7037" opacity="0.8">
+    <animate
+      attributeName="opacity"
+      values="0.3;1;0.3"
+      dur="2s"
+      repeatCount="indefinite"
+    />
+  </circle>
+</svg>

@@ -76,7 +76,7 @@ useEffect(() => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
-        <div className="bg-black/60 absolute w-full h-full z-10">
+        <div className="bg-gradient-to-t from-black/70 via-black/50 to-transparent absolute w-full h-full z-10">
           <div className="flex flex-col gap-3.5 h-full justify-center sm:items-center w-full pl-2">
             <h3 className="font-bold text-[#ec7037] p-1 text-4xl">
               W&C Electrical
@@ -99,12 +99,12 @@ useEffect(() => {
               />
             </span>
             <div className="flex gap-4">
-              <button className="font-bold outline-none w-max bg-[#120e49] text-[#ec7037] py-3 px-5 hover:bg-[#ec7037] hover:text-[#120e49] duration-300 cursor-pointer rounded-xl">
-                Call Now
-              </button>
-              <button className="font-bold outline-none w-max hover:bg-[#120e49] hover:text-[#ec7037] py-3 px-5 bg-[#ec7037] text-[#120e49] duration-300 cursor-pointer rounded-xl">
-                Contact Us
-              </button>
+              <button className="bg-[#ec7037] text-[#120e49] font-bold py-3 px-6 rounded-xl hover:bg-white duration-300">
+            Call Now
+          </button>
+          <button className="text-[#ec7037] font-bold py-3 px-6 rounded-xl hover:bg-[#ec7037] hover:text-[#120e49] bg-[#120e49] duration-300">
+            Contact Us
+          </button>
             </div>
           </div>
         </div>
@@ -187,8 +187,11 @@ viewport={{ once: true }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
         <StatCounter target={300} label="Employees" />
+        <span className="h-16 w-[2px] bg-[#ec7037]/50 hidden sm:block"></span>
         <StatCounter target={250} label="Projects" />
+        <span className="h-16 w-[2px] bg-[#ec7037]/50 hidden sm:block"></span>
         <StatCounter target={30} label="Cities Covered" />
+        <span className="h-16 w-[2px] bg-[#ec7037]/50 hidden sm:block"></span>
         <StatCounter target={15} label="Years Of Experience" />
       </motion.div>
       <motion.div
