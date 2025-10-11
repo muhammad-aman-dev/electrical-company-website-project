@@ -89,11 +89,11 @@ const ServicesPage = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="text-center text-3xl sm:text-4xl font-bold relative inline-block">
+          <h2 className="text-center text-3xl sm:text-4xl text-[#120e49] font-bold relative inline-block">
           What We Offer
           <span className="absolute left-0 -bottom-1 h-[3px] w-full bg-[#ec7037]"></span>
         </h2>
-          <p className="text-gray-700 max-w-2xl mx-auto">
+          <p className="text-gray-700 max-w-2xl mx-auto mt-4">
             Explore our wide range of services designed to power up your projects
             efficiently and safely.
           </p>
