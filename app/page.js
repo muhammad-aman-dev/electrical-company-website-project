@@ -273,9 +273,6 @@ viewport={{ once: true }}
                 <h4 className="font-bold text-[#120e49] mt-3 text-center text-lg">
                   {project.title}
                 </h4>
-                <p className="underline cursor-pointer text-[#ec7037] mt-1">
-                  View details &gt;
-                </p>
               </div>
             ))}
           </Slider>
