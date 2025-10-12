@@ -2,6 +2,8 @@
 import { motion } from "framer-motion";
 import { FaBolt, FaTools, FaSolarPanel, FaShieldAlt, FaHome, FaLightbulb, FaIndustry, FaChartLine } from "react-icons/fa";
 import Image from "next/image";
+import { services } from "@/data/servicesData.js";
+import Link from "next/link";
 
 const servicesData = [
   {
@@ -113,6 +115,7 @@ const ServicesPage = () => {
               <div className="text-[#ec7037] mb-4">{service.icon}</div>
               <h3 className="text-xl font-semibold mb-2 text-[#120e49]">{service.title}</h3>
               <p className="text-gray-700">{service.description}</p>
+              <Link href={`/services/${services[i].slug}`} className="underline text-[#ec7037] mt-3">view details{">"}</Link>
             </motion.div>
           ))}
         </div>

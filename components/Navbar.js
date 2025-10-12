@@ -65,13 +65,13 @@ export default function Navbar() {
             <Link
               href="/services"
               className={`relative inline-block font-bold duration-300 group ${
-                pathname === "/services" ? "text-[#ec7037]" : "text-[#120e49] hover:text-[#ec7037]"
+                pathname === "/services" || pathname.startsWith("/services/")  ? "text-[#ec7037]" : "text-[#120e49] hover:text-[#ec7037]"
               }`}
             >
               Services
               <span
                 className={`absolute left-0 -bottom-1 h-[2px] w-0 bg-[#ec7037] transition-all duration-300 ${
-                  pathname === "/services" ? "w-3/4" : "group-hover:w-3/4"
+                  pathname === "/services" || pathname.startsWith("/services/") ? "w-3/4" : "group-hover:w-3/4"
                 }`}
               ></span>
             </Link>
@@ -168,13 +168,13 @@ export default function Navbar() {
               href="/services"
               onClick={alterPhoneMenu}
               className={`relative text-2xl inline-block font-bold duration-300 group ${
-                pathname === "/services" ? "text-[#ec7037]" : "text-[#120e49] hover:text-[#ec7037]"
+                pathname === "/services" || pathname.startsWith("/services/") ? "text-[#ec7037]" : "text-[#120e49] hover:text-[#ec7037]"
               }`}
             >
               Services
               <span
                 className={`absolute left-0 -bottom-1 h-[2px] w-0 bg-[#ec7037] transition-all duration-300 ${
-                  pathname === "/services" ? "w-3/4" : "group-hover:w-3/4"
+                  pathname === "/services" || pathname.startsWith("/services/") ? "w-3/4" : "group-hover:w-3/4"
                 }`}
               ></span>
             </Link>

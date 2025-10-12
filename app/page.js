@@ -226,10 +226,20 @@ viewport={{ once: true }}
           </h2>
         </div>
         <div className="w-[90%] sm:w-[80%] mx-auto mt-6 relative">
-          <div className="min-h-[220px] sm:min-h-[270px] bg-gray-600/5 relative">
+          <div className="min-h-[220px] sm:min-h-[270px] bg-gray-white relative">
           <h3 className="text-center -z-30 text-black text-2xl absolute top-5 right-[45%]">Loading...</h3>
           <Slider {...settings2}>
             {[
+              {
+                id: 4,
+                img: "/project-4.jpg",
+                title: "Industrial Power Distribution System – Lahore",
+              },
+              {
+                id: 5,
+                img: "/project-5.jpg",
+                title: "Mall Electrical Fit-Out And Maintainence- Karachi",
+              },
               {
                 id: 1,
                 img: "/project-1.jpg",
@@ -238,23 +248,13 @@ viewport={{ once: true }}
               },
               {
                 id: 2,
-                img: "/project-1.jpg",
+                img: "/project-2.jpg",
                 title: "Commercial Plaza Wiring and Lighting Setup",
               },
               {
                 id: 3,
-                img: "/project-1.jpg",
+                img: "/project-3.jpg",
                 title: "Smart Home Automation – DHA Islamabad",
-              },
-              {
-                id: 4,
-                img: "/project-1.jpg",
-                title: "Industrial Power Distribution System – Lahore",
-              },
-              {
-                id: 5,
-                img: "/project-1.jpg",
-                title: "Mall Electrical Fit-Out - Karachi",
               },
             ].map((project) => (
               <div
