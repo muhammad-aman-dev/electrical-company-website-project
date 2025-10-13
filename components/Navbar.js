@@ -125,7 +125,7 @@ export default function Navbar() {
     alt="close"
     width={300}
     height={300}
-    className="w-12 h-12 absolute top-4 right-4 cursor-pointer"
+    className={`w-12 h-12 absolute ${pathname=='/'?"right-10":"right-4"} top-4 cursor-pointer`}
     onClick={(e)=>{e.stopPropagation();alterPhoneMenu();}}
   />
   <ul className="flex flex-col gap-6">
