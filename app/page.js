@@ -148,7 +148,7 @@ viewport={{ once: true }}
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="vision text-md flex sm:items-center sm:w-[40%] text-[#120e49] sm:pl-10 sm:text-xl"
+            className="vision text-md flex sm:items-center sm:w-[40%] text-[#120e49] sm:pl-10 sm:text-xl text-center sm:text-start"
 viewport={{ once: true }}
           >
             Our vision is to become the leading force in Pakistan’s construction
