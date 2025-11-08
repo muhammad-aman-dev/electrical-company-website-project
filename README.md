@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ⚡ Electrical Company Website Project
 
-## Getting Started
+A modern and responsive **frontend website** built for an electrical services company using **Next.js**, **React**, **Framer Motion**, and **React Carousel**.  
+This project showcases service offerings, past projects, and company details — designed as a professional portfolio project to demonstrate strong UI/UX and animation skills.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🔗 Live Demo  
+👉 [View Live Site](https://wcelectrical.vercel.app)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🧰 Technologies Used
+- ⚛️ **Next.js** — React framework for building fast, optimized web apps  
+- ⚡ **React.js** — Component-based UI development  
+- 🎞️ **Framer Motion** — Smooth animations and interactive transitions  
+- 🎠 **React Carousel** — Dynamic image and project carousels  
+- 💅 **CSS3** — Custom styling and responsive layout  
+- ☁️ **Vercel** — Deployment and hosting platform  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ✨ Features
+- Clean, modern **landing page** with animated hero section  
+- Dedicated **Services** section highlighting electrical solutions  
+- **Projects** showcase using image carousels and hover effects  
+- **About** page introducing the company’s background or mission  
+- **Contact** section with details and links  
+- Fully **responsive design** (mobile, tablet, desktop)  
+- Smooth **scroll and motion effects** powered by Framer Motion  
+- Optimized for **performance and SEO** via Next.js  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Customization
+You can easily:
+- Edit content like service details and project data  
+- Swap carousel images or update animations  
+- Adjust colors, typography, and layout to match branding  
+- Add new sections (e.g., testimonials, FAQs, team page)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 💡 Purpose
+This website was developed as a **frontend project** to practice:
+- Next.js and React-based site architecture  
+- Responsive design principles  
+- Animation integration using Framer Motion  
+- Component reusability and clean UI development  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contributing
+Contributions, ideas, or improvements are always welcome!  
+You can fork this repository, make updates, and open a pull request.
+
+---
+
+## 📝 License
+This project is open-source and free to use for learning or portfolio purposes.  
+Please give credit if you adapt or share it publicly.
+
+---
+
+⭐ **If you like this project, consider giving it a star!**  
+Made with ⚡ and creativity by [Muhammad Aman](https://github.com/muhammad-aman-dev)
